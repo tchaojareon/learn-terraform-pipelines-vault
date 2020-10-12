@@ -1,9 +1,9 @@
 terraform {
   backend "remote" {
-    organization = "hashicorp-learn"
+    organization = "infrastruture-pipelines-workshop"
 
     workspaces {
-      name = "learn-terraform-pipelines-vault"
+      name = "theo-c-vault"
     }
   }
 }
